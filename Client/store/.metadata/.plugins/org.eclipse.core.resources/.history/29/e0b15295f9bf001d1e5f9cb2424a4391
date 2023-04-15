@@ -1,0 +1,5 @@
+package com.invetory.services;
+
+public class IInventoryServices {
+
+}

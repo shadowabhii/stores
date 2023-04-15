@@ -1,0 +1,12 @@
+package com.product.services;
+
+import java.util.List;
+
+import com.product.model.Product;
+
+public interface IProductServices {
+	
+	public Integer addProduct(Product product );
+	public List<Product> getAllProduct();
+
+}

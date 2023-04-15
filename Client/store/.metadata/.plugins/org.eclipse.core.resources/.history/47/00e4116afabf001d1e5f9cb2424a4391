@@ -1,0 +1,18 @@
+package com.invetory.services;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.invetory.model.Product;
+
+public class IProductServiceImpl implements IProductServices{
+
+	@Autowired 
+	private IProductRepo productRepo;
+	
+	@Override
+	public Integer addProduct(Product product) {
+		int id = productRepo.save(product).productId;
+		return null;
+	}
+
+}

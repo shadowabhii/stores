@@ -1,0 +1,8 @@
+package com.invetory.model;
+
+public class Inventory {
+	
+	private Integer invetoryId;
+	private
+
+}

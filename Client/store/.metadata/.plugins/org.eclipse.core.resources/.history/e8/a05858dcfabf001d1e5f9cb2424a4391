@@ -1,0 +1,9 @@
+package com.invetory.services;
+
+import com.invetory.model.Product;
+
+public interface IProductServices {
+	
+	public Integer addProduct(Product product );
+
+}

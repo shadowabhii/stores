@@ -1,0 +1,12 @@
+package com.account.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.account.services.IAccountService;
+
+public class AccountController {
+	
+	@Autowired
+	private IAccountService accountService;
+
+}

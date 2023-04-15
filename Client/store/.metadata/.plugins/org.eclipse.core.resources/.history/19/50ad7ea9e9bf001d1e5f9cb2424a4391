@@ -1,0 +1,15 @@
+package com.invetory.model;
+
+import java.sql.Date;
+
+public class Inventory {
+	
+	private Integer invetoryId;
+	private String productName;
+	private String brand;
+	private Double price;
+	private Date entryDate;
+	private Integer quantity;
+	private Integer warranty;
+
+}

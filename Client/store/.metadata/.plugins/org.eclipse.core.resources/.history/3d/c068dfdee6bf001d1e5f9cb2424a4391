@@ -1,0 +1,13 @@
+package com.account.services;
+
+import com.account.model.Account;
+
+public class AccountServiceImpl implements IAccountService {
+
+	@Override
+	public Integer createAccount(Account account) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

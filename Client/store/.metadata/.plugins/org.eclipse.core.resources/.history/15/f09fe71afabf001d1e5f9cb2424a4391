@@ -1,0 +1,13 @@
+package com.invetory.services;
+
+import com.invetory.model.Product;
+
+public class IProductServiceImpl implements IProductServices{
+
+	@Override
+	public Integer addProduct(Product product) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

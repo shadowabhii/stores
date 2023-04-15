@@ -1,0 +1,5 @@
+INDEX VERSION 1.131+C:\Users\91701\Desktop\DG BOOK\store\.metadata\.plugins\org.eclipse.jdt.core
+1212975526.index
+4093363781.index
+1865797976.index
+3861961647.index

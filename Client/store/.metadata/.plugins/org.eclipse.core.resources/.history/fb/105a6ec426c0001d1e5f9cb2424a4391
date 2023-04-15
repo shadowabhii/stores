@@ -1,0 +1,21 @@
+package com.product.services;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.product.model.Product;
+
+
+@Service
+public class IProductServiceImpl implements IProductServices{
+
+	@Autowired 
+	private IProductRepo productRepo;
+	
+	@Override
+	public Integer addProduct(Product product) {
+	int id = productRepo.save(product).getproductId();
+		return id;
+	}
+
+}

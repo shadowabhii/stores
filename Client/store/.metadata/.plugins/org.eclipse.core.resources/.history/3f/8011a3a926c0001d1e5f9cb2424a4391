@@ -1,0 +1,9 @@
+package com.product.services;
+
+import com.product.model.Product;
+
+public interface IProductServices {
+	
+	public Integer addProduct(Product product );
+
+}
